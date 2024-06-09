@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://pbs.twimg.com/media/CfEYf3YXIAAQM-q.png');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid;
+      border-radius: 20px;
+      width:150;
+      color:#EDD8D3;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.4);
+      
+      
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+     
+    }
+    h3{
+       text-align: center;
+      }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+        }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.pinimg.com/736x/26/b3/78/26b378acc48030508a29bf2fd0c32948.jpg">
+    <h1>Maria's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Programming:</h2>
+    <p>I had my first contact with technology when I was very young, I spent a lot of time on the computer and I really liked games (Friv was my favorite website). When I was in high school I enrolled in a technical computer course, where I had my first contact with programming and I hated it. </p>
+  <p>  After that I joined another technical course, this time in logistics, and although I really liked the course, I didn't get any opportunities in the area, so I ended up going back to programming and started my degree in Internet Systems.</p>
+  <p>The language I was most familiar with was Java (as incredible as it may seem), I also know HTML, CSS and a little JS and PHP.
+I'm very curious about the Ruby language, and I would like to learn it one day.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>English:</h2>
+    <p>Since I was very young, I have always been curious about learning new things, and English was one of the first that, in addition to being curious, I had the discipline to learn it on my own. I managed to learn the language without taking classes, courses or anything like that. Because I started learning I'm very young and I don't have an accent or accent when speaking the language.</p>
+  <p>  The main reason I was curious and started learning was because I was curious to understand some songs by my favorite singer: Justin Bieber, although it was a silly reason, it was what encouraged me a lot at the time. Nowadays I'm still very I'm a fan of his, but I haven't had the chance to go to any shows yet :(</p>
+  <p> I watched a lot of documentaries about marine life, macabre stories and interviews with famous singers, which helped me a lot with my pronunciation. And as I always liked reading, I managed to combine the useful with the pleasant. I practiced English by reading books, comics, Webtoons and fanfics in the language..</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Others...</h2>
+    <p>I've worked for over two years in customer service, as a receptionist, and I simply hated every second of it. At first, I was very shy and had difficulty adapting, but as time went by I became more communicative (out of necessity), but despite this making my work and relationships with my colleagues much easier, I still couldn't wait. to leave there, despite being extremely grateful for the opportunity</p>
+    <p>I was also an intern in the commercial sector, but due to having to balance work, internship and college, I ended up leaving the company, as I was unable to cope.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
