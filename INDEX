@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+  <title>Maria Fernanda</title>
+  <style>
+    body {
+      text-align: center;
+      background:black;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: pink;
+      color: white;
+    }
+    img{
+      height:180px;
+      border-radius: 580px;
+      }
+      a{
+        color:#f7d5dc;
+        }
+      
+  </style>
+</head>
+<br><br><br><br><br><br><br><br><br><br><br>
+<body>
+  <img src="https://preview.redd.it/zlezm3diq8w61.jpg?width=640&crop=smart&auto=webp&s=0cb7b2d2592e0fecc60fffe2a39a11a862c74def">
+  <p>Hi! I'm Maria, a Web development student.</p>
+  <h4>Currently learning Java and Web Developmente. I'm looking foward
+  a internship oportunity where I can practice all ive been learning.
+  Made this simple page to practice HTML and CSS.
+  Enter your email to contact me 😊 </h4>
+  <input type="email" placeholder="Your email..."></a>
+  <input type="submit"><br><br>
+      <a href="https://dash.generalassemb.ly/projects/build-your-own-blog-theme">Portfolio</a></li>
+</body>
